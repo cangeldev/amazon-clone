@@ -8,17 +8,23 @@ import colors from '../assets/colors/colors'
 
 
 export default function Container() {
-
   const stack = createNativeStackNavigator()
   return (
     <View style={{ flex: 1 }}>
-      <NavigationContainer>
-        <stack.Navigator initialRouteName='FirstRouter'>
-          <stack.Screen options={{
-            headerShown: false,
-            statusBarColor: colors.statusBarColor,
-          }} name='FirstRouter' component={FirstRouter} />
-          <stack.Screen name='Home' component={Home} />
+      <NavigationContainer >
+        <stack.Navigator screenOptions={{
+          headerShown: false,
+          statusBarColor: colors.statusBarColor,
+        }}
+          initialRouteName='Home'>
+          <stack.Screen
+            name='FirstRouter'
+            component={FirstRouter}
+          />
+          <stack.Screen
+            name='Home'
+            component={Home}
+          />
         </stack.Navigator>
       </NavigationContainer>
     </View>

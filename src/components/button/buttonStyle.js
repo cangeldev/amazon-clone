@@ -9,8 +9,7 @@ export default StyleSheet.create({
         marginTop: 20,
         borderRadius: 8,
         borderWidth: 0.7,
-        borderColor: colors.lightGrey,
-        
+        borderColor: colors.lightGrey,        
         elevation: 4,
 
     },
