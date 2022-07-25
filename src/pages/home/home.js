@@ -5,6 +5,7 @@ import Header from '../../components/header/header'
 import IconI from "react-native-vector-icons/Ionicons";
 import IconE from "react-native-vector-icons/Entypo";
 import colors from '../../assets/colors/colors';
+import RandomImage from '../../components/randomImage/randomImage';
 
 export default function Home() {
   return (
@@ -25,8 +26,9 @@ export default function Home() {
             color={colors.black}
             style={{ marginLeft:6 }} />
         </View>
+        
       </TouchableWithoutFeedback>
-      
+      <RandomImage/>
     </View >
   )
 }

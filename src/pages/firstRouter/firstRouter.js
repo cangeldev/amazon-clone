@@ -29,7 +29,7 @@ export default function FirstRouter({ navigation }) {
       <Button
         text={"Yeni bir Amazon.com.tr kullanıcı mısınız? Hesap oluşturun"}
         colorA={colors.greyButton}
-        onPress={() => navigation.navigate('Home')} />
+        onPress={() => navigation.navigate('TabNavigator')} />
       <Button
         text={"Çıkış Yap"}
         colorA={colors.greyButton}
