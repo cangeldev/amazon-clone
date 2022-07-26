@@ -8,7 +8,8 @@ export default{
     greyButton:"#f2f3f7",
     lightGrey:"#cfd1d3",
     silver:"#C0C0C0",
-    greyPlaceHolder:"#696969"
+    greyPlaceHolder:"#696969",
+    green1:"#008196"
    
   
 }

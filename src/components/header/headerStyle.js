@@ -21,8 +21,7 @@ export default StyleSheet.create({
         position: "relative",
         justifyContent: "center",
         width: "100%",
-        height: 70,
-    
+        height: 70,    
         alignItems: "center",    
     },
     innerContainer: {
