@@ -1,8 +1,10 @@
-import { View, FlatList } from 'react-native'
+import { View, FlatList,Text } from 'react-native'
 import React, { useEffect, useState } from 'react'
-import ProductListCard from '../../cards/productListCard/productListCard';
 import axios from 'axios';
-export default function ProductList() {
+import DealsOfDayListCard from '../../cards/dealsOfDayListCard/dealsOfDayListCard';
+import dealsOfDayListStyle from './dealsOfDayListStyle';
+
+export default function DealsOfDayList({name}) {
     const [products, setProducts] = useState([]);
     const [error, setError] = useState(null);
 
@@ -20,10 +22,12 @@ export default function ProductList() {
         fetchData();
     }, []);
 
-    const renderProducts = ({ item }) => <ProductListCard products={item} />
+    const renderProducts = ({ item }) => <DealsOfDayListCard products={item} />
     return (
-        <View style={{ marginTop: -200, height: 200 }}>
+        <View style={dealsOfDayListStyle.container}>
+            <Text style={dealsOfDayListStyle.title}>{name}</Text>
             <FlatList data={products} renderItem={renderProducts} horizontal />
+            <Text style={dealsOfDayListStyle.text}>Tüm fırsatları gör</Text>
         </View>
     )
 }

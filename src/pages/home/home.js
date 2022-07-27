@@ -1,4 +1,4 @@
-import { View, Text, TouchableWithoutFeedback, ScrollView } from 'react-native'
+import { View, Text, TouchableWithoutFeedback, ScrollView, Image } from 'react-native'
 import React from 'react'
 import homeStyle from './homeStyle'
 import Header from '../../components/header/header'
@@ -9,10 +9,12 @@ import RandomImage from '../../components/randomImage/randomImage';
 import Slider from '../../components/slider/slider';
 import HeaderMenuList from '../../components/headerMenuList/headerMenuList';
 import ProductList from '../../components/productList/productList';
+import DealsOfDayList from '../../components/dealsOfDayList/dealsOfDayList';
+
 export default function Home() {
   return (
     <View style={homeStyle.container}>
-      <ScrollView >
+      <ScrollView stickyHeaderIndices={[0]} >
         <Header />
         <TouchableWithoutFeedback onPress={() => { console.log("asdas") }}>
           <View style={homeStyle.adressContainer}>
@@ -21,7 +23,9 @@ export default function Home() {
               size={22}
               color={colors.black}
               style={{ marginLeft: 8 }} />
-            <Text style={homeStyle.adressTxt}>Alıcı: Can - Düzce 81100</Text>
+            <Text style={homeStyle.adressTxt}>
+              Alıcı: Can - Düzce 81100
+            </Text>
             <IconE
               name="chevron-down"
               size={22}
@@ -31,8 +35,14 @@ export default function Home() {
         </TouchableWithoutFeedback>
         <HeaderMenuList />
         <Slider />
-        <ProductList/>
-        <RandomImage />       
+        <ProductList />
+        <View style={homeStyle.imageContainer}>
+          <Image
+            source={require("../../assets/images/reklam.jpeg")}
+            style={homeStyle.image} />
+        </View>
+        <RandomImage />
+        <DealsOfDayList name={"Günün Fırsatları"}/>
       </ScrollView>
     </View >
   )

@@ -19,6 +19,15 @@ export default StyleSheet.create({
         fontSize: 16,
         color: colors.black,
         marginLeft: 6,
-    }
+    },
+    imageContainer:{    
+        borderTopWidth: 5, 
+        borderBottomWidth: 1, borderColor:colors.lightGrey
+      },
+      image:{
+        width:"100%",
+        height:70,
+         resizeMode:"stretch",    
+      }
 
 });
