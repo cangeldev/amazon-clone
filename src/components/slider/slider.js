@@ -11,7 +11,6 @@ export default function Slider() {
                 { img: require('../../assets/images/sliderImages/a4.jpg') },
                 { img: require('../../assets/images/sliderImages/a5.jpg') },
                 { img: require('../../assets/images/sliderImages/a6.jpg') },
-
             ]}
             autoPlay={true}
             showIndicator={false}

@@ -5,13 +5,13 @@ export default StyleSheet.create({
         width: 250,
         padding: 2,
         marginVertical: 8,
-        marginHorizontal: 5,        
+        marginHorizontal: 5,
         backgroundColor: colors.white,
         elevation: 5,
     },
     image: {
         width: "100%",
-        height: 180,
+        height: 170,
         borderRadius: 10,
         resizeMode: "center",
         marginTop: 20
@@ -49,13 +49,23 @@ export default StyleSheet.create({
         paddingVertical: 15,
         justifyContent: "space-between",
     },
-    rateContainer:{
-        flexDirection:"row",
-        alignItems:"center",
-        marginRight:5,
-        alignContent:"center"
-         
-         
+    rateContainer: {
+        flexDirection: "row",
+        alignItems: "center",
+        marginRight: 5,
+        alignContent: "center"
+
+
     },
-    
+    rateText: {
+        marginLeft: 4,
+        fontSize: 10,
+        color: colors.black,
+        marginTop: 2
+    },
+    rate: {
+        paddingLeft: 6,
+        fontSize: 15,
+        color: colors.black
+    }
 });

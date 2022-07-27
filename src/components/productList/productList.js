@@ -5,7 +5,6 @@ import axios from 'axios';
 export default function ProductList() {
     const [products, setProducts] = useState([]);
     const [error, setError] = useState(null);
-
     async function fetchData() {
         //  https://fakestoreapi.com/products
         try {
@@ -19,11 +18,10 @@ export default function ProductList() {
     useEffect(() => {
         fetchData();
     }, []);
-
     const renderProducts = ({ item }) => <ProductListCard products={item} />
     return (
         <View style={{ marginTop: -200, height: 200 }}>
-            <FlatList data={products} renderItem={renderProducts} horizontal />
+            <FlatList data={products} renderItem={renderProducts} horizontal   showsHorizontalScrollIndicator={false}/>
         </View>
     )
 }

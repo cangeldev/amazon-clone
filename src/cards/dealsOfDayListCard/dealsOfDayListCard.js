@@ -17,7 +17,8 @@ export default function DealsOfDayListCard({ products }) {
       <Image style={dealsOfDayListCardStyle.image}
         source={{ uri: products.image }} />
       <View style={dealsOfDayListCardStyle.footerContainer}>
-        <Text style={dealsOfDayListCardStyle.price}>
+        <Text
+          style={dealsOfDayListCardStyle.price}>
           {products.price} TL
         </Text>
         <View style={dealsOfDayListCardStyle.rateContainer}>
@@ -26,8 +27,8 @@ export default function DealsOfDayListCard({ products }) {
             size={22}
             color={colors.star}
           />
-          <Text style={{ paddingLeft: 6, fontSize: 15, color: colors.black }} >{products.rating.rate}</Text>
-          <Text style={{ marginLeft: 4, fontSize: 10, color: colors.black, marginTop:2 }} >{products.rating.count} İnceleme</Text>
+          <Text style={dealsOfDayListCardStyle.rate} >{products.rating.rate}</Text>
+          <Text style={dealsOfDayListCardStyle.rateText} >{products.rating.count} İnceleme</Text>
         </View>
       </View>
       <Text style={dealsOfDayListCardStyle.title}

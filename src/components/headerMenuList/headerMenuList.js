@@ -43,8 +43,10 @@ export default function HeaderList() {
       <FlatList
         data={images}
         renderItem={renderProducts}
+        showsHorizontalScrollIndicator={false}
         horizontal
-        showsHorizontalScrollIndicator={false} />
+    
+        />
     </View>
   )
 }
