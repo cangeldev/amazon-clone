@@ -39,7 +39,7 @@ export default function HeaderList() {
   ]);
   const renderProducts = ({ item }) => <HeaderMenuListCard products={item} />
   return (
-    <View style={{ borderBottomWidth: 5, borderBottomColor: colors.lightGrey }}>
+    <View style={{ borderBottomWidth: 5, borderBottomColor: colors.lightGrey,paddingHorizontal:3 }}>
       <FlatList
         data={images}
         renderItem={renderProducts}
