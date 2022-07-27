@@ -1,8 +1,9 @@
 import { StyleSheet } from "react-native";
 export default StyleSheet.create({
   container:{    
-   paddingVertical:14,
+   paddingVertical:12,
    paddingHorizontal:2,
+   paddingTop:10
   },
   image:{    
     width:90,

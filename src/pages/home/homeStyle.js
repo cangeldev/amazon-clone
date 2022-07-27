@@ -10,13 +10,13 @@ export default StyleSheet.create({
     adressContainer: {
         backgroundColor: "#96DEDA",
         width: "100%",
-        height: 50,
+        height: 40,
         flexDirection: "row",
         alignItems: "center",
 
     },
     adressTxt: {
-        fontSize: 17,
+        fontSize: 16,
         color: colors.black,
         marginLeft: 6,
     }

@@ -7,7 +7,8 @@ import IconE from "react-native-vector-icons/Entypo";
 import colors from '../../assets/colors/colors';
 import RandomImage from '../../components/randomImage/randomImage';
 import Slider from '../../components/slider/slider';
-import HeaderList from '../../components/headerList/headerList';
+import HeaderMenuList from '../../components/headerMenuList/headerMenuList';
+import ProductList from '../../components/productList/productList';
 export default function Home() {
   return (
     <View style={homeStyle.container}>
@@ -28,10 +29,10 @@ export default function Home() {
               style={{ marginLeft: 6 }} />
           </View>
         </TouchableWithoutFeedback>
-        <HeaderList horizontal={true} />
+        <HeaderMenuList />
         <Slider />
-        <RandomImage />
-      
+        <ProductList/>
+        <RandomImage />       
       </ScrollView>
     </View >
   )

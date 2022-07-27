@@ -11,8 +11,10 @@ export default function RandomImage() {
     const randomNumber = Math.floor(Math.random() * 6);
     const deneme = [b1, b2, b3, b4, b5, b6];
     return (
-        
-        <Image source={deneme[randomNumber]} style={randomImageStyle.container} />
+        <View style={randomImageStyle.container}>
+<Image source={deneme[randomNumber]} style={randomImageStyle.image} />
      
+        </View>
+        
     )
 }
