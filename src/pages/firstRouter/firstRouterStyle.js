@@ -3,7 +3,6 @@ import colors from '../../assets/colors/colors'
 const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
 export default StyleSheet.create({
-
     container: {
         flex: 1,
         backgroundColor: colors.white
@@ -20,14 +19,14 @@ export default StyleSheet.create({
         alignSelf: "center",
         fontSize: 25,
         fontWeight: "bold",
-        color: colors.black,      
+        color: colors.black,
     },
-    headerText:{
-       fontSize:17,
-       marginLeft:30,
-       marginTop:20,
-       lineHeight:30,
-       color:colors.black,
-       marginBottom:15
+    headerText: {
+        fontSize: 17,
+        marginLeft: 30,
+        marginTop: 20,
+        lineHeight: 30,
+        color: colors.black,
+        marginBottom: 15
     }
 })

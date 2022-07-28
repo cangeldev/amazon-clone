@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import colors from "../../assets/colors/colors";
+import colors from "../../../assets/colors/colors";
 export default StyleSheet.create({
     container: {
         width: 250,
@@ -54,8 +54,6 @@ export default StyleSheet.create({
         alignItems: "center",
         marginRight: 5,
         alignContent: "center"
-
-
     },
     rateText: {
         marginLeft: 4,

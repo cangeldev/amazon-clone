@@ -1,6 +1,6 @@
-import { View, Text, FlatList, } from 'react-native'
+import { View, FlatList, } from 'react-native'
 import React from 'react'
-import HeaderMenuListCard from '../../cards/headerMenuListCard/headerMenuListCard';
+import HeaderMenuListCard from './/headerMenuListCard/headerMenuListCard';
 import colors from "../../assets/colors/colors";
 export default function HeaderList() {
   const [images, setimages] = React.useState([
@@ -39,14 +39,14 @@ export default function HeaderList() {
   ]);
   const renderProducts = ({ item }) => <HeaderMenuListCard products={item} />
   return (
-    <View style={{ borderBottomWidth: 5, borderBottomColor: colors.lightGrey,paddingHorizontal:3 }}>
+    <View style={{ borderBottomWidth: 5, borderBottomColor: colors.lightGrey, paddingHorizontal: 3 }}>
       <FlatList
         data={images}
         renderItem={renderProducts}
         showsHorizontalScrollIndicator={false}
         horizontal
-    
-        />
+
+      />
     </View>
   )
 }

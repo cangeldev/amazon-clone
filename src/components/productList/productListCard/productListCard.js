@@ -5,7 +5,6 @@ import productListCardStyle from './productListCardStyle'
 export default function ProductListCard({ products }) {
   return (
     <View style={productListCardStyle.container}>
-
       <Image style={productListCardStyle.image}
         source={{ uri: products.image }} />
       <Text style={productListCardStyle.title}

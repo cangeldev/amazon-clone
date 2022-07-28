@@ -1,7 +1,6 @@
 import { StyleSheet, Dimensions } from "react-native";
 import colors from "../../assets/colors/colors";
 const windowWidth = Dimensions.get('window').width;
-const windowHeight = Dimensions.get('window').height;
 export default StyleSheet.create({
     txtInput: {
         borderWidth: 0.7,
@@ -21,12 +20,11 @@ export default StyleSheet.create({
         position: "relative",
         justifyContent: "center",
         width: "100%",
-        height: 70,    
-        alignItems: "center",    
+        height: 70,
+        alignItems: "center",
     },
     innerContainer: {
         justifyContent: "center",
-       
-    }
 
+    }
 });

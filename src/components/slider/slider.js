@@ -2,7 +2,6 @@ import React from 'react'
 import { ImageSlider } from "react-native-image-slider-banner";
 export default function Slider() {
     return (
-
         <ImageSlider localImg="true" resizeMode={'center'}
             data={[
                 { img: require('../../assets/images/sliderImages/a1.jpg') },
@@ -18,6 +17,5 @@ export default function Slider() {
             onClick={() => { null }}
             timer={3500}
         />
-
     )
 }

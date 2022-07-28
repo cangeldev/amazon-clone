@@ -1,7 +1,6 @@
 import { StyleSheet, Dimensions } from "react-native";
 import colors from "../../assets/colors/colors";
 const windowWidth = Dimensions.get('window').width;
-const windowHeight = Dimensions.get('window').height;
 export default StyleSheet.create({
     container: {
         width: windowWidth / 1.1,
@@ -9,9 +8,8 @@ export default StyleSheet.create({
         marginTop: 20,
         borderRadius: 8,
         borderWidth: 0.7,
-        borderColor: colors.lightGrey,        
+        borderColor: colors.lightGrey,
         elevation: 4,
-
     },
     textB: {
         fontSize: 16,
@@ -22,5 +20,4 @@ export default StyleSheet.create({
         textAlign: "center",
         paddingHorizontal: 16
     }
-
 })
