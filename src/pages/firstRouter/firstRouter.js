@@ -1,8 +1,8 @@
 import { View, Text, Image, BackHandler } from 'react-native'
 import React from 'react'
 import firstRouterStyle from './firstRouterStyle'
-import Button from '../../components/button/button'
-import colors from '../../assets/colors/colors'
+import Button from 'components/button/button'
+import colors from 'assets/colors/colors'
 
 export default function FirstRouter({ navigation }) {
   return (

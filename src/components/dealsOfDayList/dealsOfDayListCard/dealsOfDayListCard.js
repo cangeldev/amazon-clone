@@ -3,7 +3,7 @@ import React from 'react'
 import dealsOfDayListCardStyle from './dealsOfDayListCardStyle'
 import IconI from "react-native-vector-icons/Ionicons";
 import IconA from "react-native-vector-icons/FontAwesome";
-import colors from '../../../assets/colors/colors';
+import colors from 'assets/colors/colors';
 
 export default function DealsOfDayListCard({ products }) {
   return (

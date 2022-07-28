@@ -2,7 +2,7 @@ import { View, FlatList, Text } from 'react-native'
 import React from 'react'
 import dealsOfDayListStyle from './dealsOfDayListStyle';
 import DealsOfDayListCard from "./dealsOfDayListCard/dealsOfDayListCard"
-import useFetch from '../../hooks/useFetch/useFetch';
+import useFetch from 'hooks/useFetch/useFetch';
 
 export default function DealsOfDayList({ name }) {
     const { products, error } = useFetch();

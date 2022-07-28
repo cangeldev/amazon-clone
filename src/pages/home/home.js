@@ -4,12 +4,12 @@ import homeStyle from './homeStyle'
 import Header from '../../components/header/header'
 import IconI from "react-native-vector-icons/Ionicons";
 import IconE from "react-native-vector-icons/Entypo";
-import colors from '../../assets/colors/colors';
-import RandomImage from '../../components/randomImage/randomImage';
-import Slider from '../../components/slider/slider';
-import HeaderMenuList from '../../components/headerMenuList/headerMenuList';
-import ProductList from '../../components/productList/productList';
-import DealsOfDayList from '../../components/dealsOfDayList/dealsOfDayList';
+import colors from 'assets/colors/colors';
+import RandomImage from 'components/randomImage/randomImage';
+import Slider from 'components/slider/slider';
+import HeaderMenuList from 'components/headerMenuList/headerMenuList';
+import ProductList from 'components/productList/productList';
+import DealsOfDayList from 'components/dealsOfDayList/dealsOfDayList';
 
 export default function Home() {
   return (
