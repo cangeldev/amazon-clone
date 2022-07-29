@@ -12,6 +12,9 @@ export default {
     green1: "#008196",
     star:"#ffa900",
     backgroundGrey:"#e9edee",
+    red:"#ff0000",
+    headerBackground:"#00d4ff",
+    fafafa:"#fafafa",
 
 
 }

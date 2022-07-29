@@ -1,7 +1,7 @@
 import { View, Text, TouchableWithoutFeedback, ScrollView, Image } from 'react-native'
 import React from 'react'
 import homeStyle from './homeStyle'
-import Header from '../../components/header/header'
+import Header from 'components/header/header'
 import IconI from "react-native-vector-icons/Ionicons";
 import IconE from "react-native-vector-icons/Entypo";
 import colors from 'assets/colors/colors';
@@ -38,11 +38,11 @@ export default function Home() {
         <ProductList />
         <View style={homeStyle.imageContainer}>
           <Image
-            source={require("../../assets/images/reklam.jpeg")}
+            source={require("assets/images/reklam.jpeg")}
             style={homeStyle.image} />
         </View>
         <RandomImage />
-        <DealsOfDayList name={"Günün Fırsatları"}/>
+        <DealsOfDayList name={"Günün Fırsatları"} />
       </ScrollView>
     </View >
   )

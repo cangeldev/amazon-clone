@@ -3,8 +3,7 @@ import colors from "assets/colors/colors";
 
 export default StyleSheet.create({
     container: {
-        backgroundColor: colors.backgroundGrey,
-        padding: 10,
+        
         paddingBottom: 15,
         borderBottomWidth:5,       
         borderBottomColor: colors.lightGrey
