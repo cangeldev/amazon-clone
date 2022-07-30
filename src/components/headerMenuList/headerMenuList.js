@@ -1,7 +1,7 @@
 import { View, FlatList, } from 'react-native'
 import React from 'react'
 import HeaderMenuListCard from './/headerMenuListCard/headerMenuListCard';
-import colors from "../../assets/colors/colors";
+import colors from "assets/colors/colors";
 export default function HeaderList() {
   const [images, setimages] = React.useState([
     {
@@ -45,7 +45,6 @@ export default function HeaderList() {
         renderItem={renderProducts}
         showsHorizontalScrollIndicator={false}
         horizontal
-
       />
     </View>
   )

@@ -1,6 +1,6 @@
 import { View, Text } from 'react-native'
 import React from 'react'
-import PrimeList from 'components/primeList/primeList'
+import PrimeList from 'components/lists/primeList/primeList'
 import menuStyle from './menuStyle'
 
 export default function Menu() {

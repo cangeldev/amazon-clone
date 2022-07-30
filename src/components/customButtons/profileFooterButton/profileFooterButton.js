@@ -1,19 +1,17 @@
 import { Text, TouchableOpacity } from 'react-native'
 import React from 'react'
-import buttonStyle from './buttonStyle'
+import profileFooterButtonStyle from './profileFooterButtonStyle'
 
-export default function Button({ text, colorA, onPress }) {
+export default function ProfileFooterButton({ text }) {
   return (
     <TouchableOpacity
-      onPress={onPress}
       activeOpacity={0.4}
       style={[
-        buttonStyle.container,
-        { backgroundColor: colorA }
+        profileFooterButtonStyle.container
       ]}>
       <Text
         style={
-          buttonStyle.textB
+          profileFooterButtonStyle.text
         }>
         {text}
       </Text>

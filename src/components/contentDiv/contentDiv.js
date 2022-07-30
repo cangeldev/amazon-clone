@@ -1,16 +1,15 @@
 import { View, Text } from 'react-native'
 import React from 'react'
-import ProfileFooterButton from 'components/profileFooterButton/profileFooterButton'
 import contentDivStyle from './contentDivStyle'
-
-
-export default function ContentDiv({text, header}) {
+import AccountButton from 'components/customButtons/accountButton/accountButton'
+export default function ContentDiv({ header,text,button,navText}) {
   return (
-    <View>
+    <View style={contentDivStyle.container}>
+      <Text style={contentDivStyle.navigateText}>{navText}</Text>
        <Text style={contentDivStyle.text}>{header}</Text>              
-         <View style={{flexDirection:"row", width:100, backgroundColor:"red"}}>
-         <ProfileFooterButton text={text}/>
-          <ProfileFooterButton text={text}/>
+         <View style={{flexDirection:"row"}}>
+        <AccountButton text={text}/>
+        <AccountButton text={button}/>
          </View>
     </View>
   )

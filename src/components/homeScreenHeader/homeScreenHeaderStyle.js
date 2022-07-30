@@ -11,7 +11,7 @@ export default StyleSheet.create({
         borderColor: colors.lightGrey,
         fontSize: 18,
     },
-    iconI: {
+    iconM: {
         position: "absolute",
         alignSelf: "flex-end",
         paddingRight: 10

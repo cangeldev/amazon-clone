@@ -3,21 +3,19 @@ import colors from "assets/colors/colors";
 const windowWidth = Dimensions.get('window').width;
 export default StyleSheet.create({
     container: {
-        width: windowWidth - 20,
-        alignSelf: "center",
+        width: (windowWidth / 2) - 20,
         marginTop: 20,
         borderRadius: 8,
         borderWidth: 0.7,
         borderColor: colors.lightGrey,
         elevation: 1,
+        marginLeft: 13,
     },
-    textB: {
+    text: {
         fontSize: 18,
         minHeight: 55,
-        textAlignVertical: "center",
-        alignSelf: "center",
+        textAlignVertical: "center",      
         color: colors.black,
         textAlign: "center",
-        paddingHorizontal: 16
     }
 })

@@ -4,7 +4,6 @@ import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Home from 'pages/home/home'
-
 import colors from 'assets/colors/colors'
 import Profile from 'pages/profile/profile';
 import ShoppingCart from 'pages/shoppingCart/shoppingCart';
@@ -13,10 +12,8 @@ import IconO from "react-native-vector-icons/Octicons";
 import IconFA from "react-native-vector-icons/FontAwesome";
 import IconF from "react-native-vector-icons/Feather";
 import FirstRouter from 'pages/firstRouter/firstRouter';
-
 export default function Container() {
   const stack = createNativeStackNavigator()
-
   return (
     <View style={{ flex: 1 }}>
       <NavigationContainer >

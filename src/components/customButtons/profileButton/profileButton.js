@@ -9,24 +9,20 @@ export default function ProfileButton() {
       <View style={profileButtonStyle.profileButtonContainer}>
         <TouchableOpacity
           activeOpacity={0.4}
-          style={[
-            profileButtonStyle.container
-          ]}>
+          style={profileButtonStyle.container}>
           <Text
             style={
-              profileButtonStyle.textB
+              profileButtonStyle.text
             }>
-           Siparişlerim
+            Siparişlerim
           </Text>
         </TouchableOpacity>
         <TouchableOpacity
           activeOpacity={0.4}
-          style={[
-            profileButtonStyle.container
-          ]}>
+          style={profileButtonStyle.container}>
           <Text
             style={
-              profileButtonStyle.textB
+              profileButtonStyle.text
             }>
             Tekrar Satın Al
           </Text>
@@ -35,30 +31,26 @@ export default function ProfileButton() {
       <View style={profileButtonStyle.profileButtonContainer}>
         <TouchableOpacity
           activeOpacity={0.4}
-          style={[
-            profileButtonStyle.container
-          ]}>
+          style={profileButtonStyle.container}>
           <Text
             style={
-              profileButtonStyle.textB
+              profileButtonStyle.text
             }>
-          Hesabım
+            Hesabım
           </Text>
         </TouchableOpacity>
         <TouchableOpacity
           activeOpacity={0.4}
-          style={[
-            profileButtonStyle.container
-          ]}>
+          style={profileButtonStyle.container}>
           <Text
             style={
-              profileButtonStyle.textB
+              profileButtonStyle.text
             }>
-         Listelerim
+            Listelerim
           </Text>
         </TouchableOpacity>
       </View>
-     
+
     </View>
   )
 }

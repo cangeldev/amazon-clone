@@ -1,15 +1,15 @@
 import { View, Text, TouchableWithoutFeedback, ScrollView, Image } from 'react-native'
 import React from 'react'
 import homeStyle from './homeStyle'
-import Header from 'components/header/header'
+import Header from 'components/homeScreenHeader/homeScreenHeader'
 import IconI from "react-native-vector-icons/Ionicons";
 import IconE from "react-native-vector-icons/Entypo";
 import colors from 'assets/colors/colors';
 import RandomImage from 'components/randomImage/randomImage';
 import Slider from 'components/slider/slider';
 import HeaderMenuList from 'components/headerMenuList/headerMenuList';
-import ProductList from 'components/productList/productList';
-import DealsOfDayList from 'components/dealsOfDayList/dealsOfDayList';
+import ProductList from 'components/lists/productList/productList';
+import DealsOfDayList from 'components/lists/dealsOfDayList/dealsOfDayList';
 
 export default function Home() {
   return (

@@ -9,10 +9,10 @@ import b5 from 'assets/images/adsImages/b5.jpg';
 import b6 from 'assets/images/adsImages/b6.jpg';
 export default function RandomImage() {
     const randomNumber = Math.floor(Math.random() * 6);
-    const deneme = [b1, b2, b3, b4, b5, b6];
+    const list = [b1, b2, b3, b4, b5, b6];
     return (
         <View style={randomImageStyle.container}>
-            <Image source={deneme[randomNumber]} style={randomImageStyle.image} />
+            <Image source={list[randomNumber]} style={randomImageStyle.image} />
         </View>
     )
 }
