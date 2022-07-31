@@ -14,7 +14,7 @@ export default StyleSheet.create({
         marginBottom: 3
     },
     text: {
-        fontSize: 19,
+        fontSize: 17,
         minHeight: 45,
         textAlignVertical: "center",
         alignSelf: "center",

@@ -15,6 +15,7 @@ export default {
     red:"#ff0000",
     headerBackground:"#00d4ff",
     fafafa:"#fafafa",
+    btnYellow:"#fed813",
 
 
 }

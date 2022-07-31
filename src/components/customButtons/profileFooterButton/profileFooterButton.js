@@ -2,12 +2,13 @@ import { Text, TouchableOpacity } from 'react-native'
 import React from 'react'
 import profileFooterButtonStyle from './profileFooterButtonStyle'
 
-export default function ProfileFooterButton({ text }) {
+export default function ProfileFooterButton({ text,colorA ,marginBottom}) {
   return (
     <TouchableOpacity
-      activeOpacity={0.4}
+      activeOpacity={0.8}
       style={[
-        profileFooterButtonStyle.container
+        profileFooterButtonStyle.container,
+        { backgroundColor: colorA ,marginBottom:marginBottom}
       ]}>
       <Text
         style={

@@ -6,7 +6,7 @@ import accountButtonStyle from './accountButtonStyle'
 export default function AccountButton({ text }) {
     return (
         <TouchableOpacity
-            activeOpacity={0.4}
+            activeOpacity={0.5}
             style={accountButtonStyle.container}>
             <Text
                 style={

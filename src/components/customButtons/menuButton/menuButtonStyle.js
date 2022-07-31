@@ -3,22 +3,30 @@ import colors from "assets/colors/colors";
 const windowWidth = Dimensions.get('window').width;
 export default StyleSheet.create({
     container: {
-        width: windowWidth - 20,
+        width: windowWidth - 15,
         alignSelf: "center",
-        marginTop: 15,
+        marginBottom: 15,
         borderRadius: 8,
         borderWidth: 0.7,
         borderColor: colors.lightGrey,
-        elevation: 1,
         backgroundColor: colors.fafafa,
+        flexDirection: "row",
+        alignItems: "center",
     },
     text: {
-        fontSize: 18,
-        minHeight: 55,
+        fontSize: 16,
+        minHeight: 50,
         textAlignVertical: "center",
-        alignSelf: "center",
         color: colors.black,
-        textAlign: "center",
         paddingHorizontal: 16
+    },
+    image: {
+        width: 30,
+        height: 20,
+    },
+    icon: {
+        position: "absolute",
+        right: 15,
+        top: 15,
     }
 })
