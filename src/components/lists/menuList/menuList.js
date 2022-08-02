@@ -82,10 +82,13 @@ export default function MenuList() {
         }
       
     ]);
-    const renderProducts = ({ item }) => <MenuListCard products={item} />
+    // const renderProducts = ({ item }) => <MenuListCard products={item} />
     return (
-        <View  style={{marginBottom:10}}>        
-            <FlatList numColumns={3} data={images}  renderItem={renderProducts}  />
+        <View style={{marginBottom:10,flexDirection: 'row', flexWrap: 'wrap'}}>       
+        {
+            images.map((item)=> <MenuListCard item={item}  key={item.id}   products={item}/>)
+        } 
+            {/* <FlatList numColumns={3} data={images}  renderItem={renderProducts}  /> */}
             </View>
     )
 }

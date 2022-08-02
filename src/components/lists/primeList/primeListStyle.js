@@ -2,11 +2,11 @@ import { StyleSheet } from "react-native";
 import colors from "assets/colors/colors";
 
 export default StyleSheet.create({
-    container: {
-        
+    container: {        
         paddingBottom: 15,
         borderBottomWidth:5,       
-        borderBottomColor: colors.lightGrey
+        borderBottomColor: colors.lightGrey,
+        marginTop: -10,
     },
     title: {
         paddingLeft: 7,

@@ -9,6 +9,8 @@ import HeaderMenuList from 'components/headerMenuList/headerMenuList';
 import ProductList from 'components/lists/productList/productList';
 import DealsOfDayList from 'components/lists/dealsOfDayList/dealsOfDayList';
 import Adress from 'components/adress/adress';
+import PrimeList from 'components/lists/primeList/primeList';
+import Product from 'components/product/product';
 
 export default function Home() {
   return (
@@ -26,6 +28,8 @@ export default function Home() {
         </View>
         <RandomImage />
         <DealsOfDayList name={"Günün Fırsatları"} />
+        <PrimeList/>
+        <Product/>
       </ScrollView>
     </View >
   )

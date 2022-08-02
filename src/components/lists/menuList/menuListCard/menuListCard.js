@@ -6,9 +6,8 @@ export default function MenuListCard({ products }) {
     
     <View style={menuListCardStyle.container} >
       <Text style={menuListCardStyle.text} >{products.name}</Text>
-      <Image style={menuListCardStyle.background} source={require("assets/images/aa.png")} />
-        <Image style={menuListCardStyle.image} source={products.image} />
-           
+      <Image style={menuListCardStyle.background} source={require("assets/images/arkaplan.png")} />
+        <Image style={menuListCardStyle.image} source={products.image} />           
     </View>
   )
 }
