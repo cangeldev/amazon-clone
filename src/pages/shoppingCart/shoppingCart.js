@@ -6,7 +6,6 @@ import shoppingCartStyle from './shoppingCartStyle'
 import Lottie from 'lottie-react-native';
 import colors from 'assets/colors/colors'
 import RecommendedList from 'components/lists/recommendedList/recommendedList'
-import AccountButton from 'components/customButtons/accountButton/accountButton'
 import ProfileFooterButton from 'components/customButtons/profileFooterButton/profileFooterButton'
 
 

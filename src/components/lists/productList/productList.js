@@ -1,4 +1,4 @@
-import { View, FlatList } from 'react-native'
+import { View, FlatList} from 'react-native'
 import React from 'react'
 import ProductListCard from './productListCard/productListCard';
 import useFetch from 'hooks/useFetch/useFetch';
