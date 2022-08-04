@@ -11,13 +11,14 @@ export default StyleSheet.create({
     },
     title: {
         paddingLeft: 7,
-        fontSize: 24,
+        fontSize: 22,
         color: colors.black
     },
     text: {
         paddingLeft: 7,
-        fontSize: 19,
+        fontSize: 17,
         color: colors.green1,
-        marginTop: 2
+        marginTop: 2,
+        marginBottom: -5
     }
 });

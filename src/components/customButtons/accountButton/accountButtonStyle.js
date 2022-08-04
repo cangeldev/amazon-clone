@@ -15,7 +15,7 @@ export default StyleSheet.create({
     text: {
         fontSize: 18,
         minHeight: 55,
-        textAlignVertical: "center",      
+        textAlignVertical: "center",
         color: colors.black,
         textAlign: "center",
     }

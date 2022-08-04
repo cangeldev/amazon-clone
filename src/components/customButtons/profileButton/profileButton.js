@@ -2,7 +2,6 @@ import { Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
 import profileButtonStyle from './profileButtonStyle'
 
-
 export default function ProfileButton() {
   return (
     <View>
@@ -50,7 +49,6 @@ export default function ProfileButton() {
           </Text>
         </TouchableOpacity>
       </View>
-
     </View>
   )
 }

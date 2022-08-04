@@ -1,7 +1,6 @@
-import { View, Text, FlatList } from 'react-native'
+import { View } from 'react-native'
 import React from 'react'
 import MenuListCard from './menuListCard/menuListCard';
-
 
 export default function MenuList() {
     const [images, setimages] = React.useState([
@@ -80,15 +79,12 @@ export default function MenuList() {
             image: require("assets/images/menu/hesap.png"),
             name: "Hesabım",
         }
-      
     ]);
-    // const renderProducts = ({ item }) => <MenuListCard products={item} />
     return (
-        <View style={{marginBottom:10,flexDirection: 'row', flexWrap: 'wrap'}}>       
-        {
-            images.map((item)=> <MenuListCard item={item}  key={item.id}   products={item}/>)
-        } 
-            {/* <FlatList numColumns={3} data={images}  renderItem={renderProducts}  /> */}
-            </View>
+        <View style={{ marginBottom: 10, flexDirection: 'row', flexWrap: 'wrap' }}>
+            {
+                images.map((item) => <MenuListCard item={item} key={item.id} products={item} />)
+            }
+        </View>
     )
 }

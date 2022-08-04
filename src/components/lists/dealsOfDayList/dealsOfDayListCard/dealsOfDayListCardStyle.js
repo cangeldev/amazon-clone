@@ -18,14 +18,14 @@ export default StyleSheet.create({
     },
     title: {
         width: "90%",
-        fontSize: 17,
+        fontSize: 15,
         color: colors.black,
         marginLeft: 10,
         marginBottom: 10,
     },
     price: {
         color: colors.white,
-        fontSize: 15,
+        fontSize: 14,
         backgroundColor: "red",
         alignSelf: "flex-start",
         padding: 5,
@@ -52,7 +52,7 @@ export default StyleSheet.create({
     rateContainer: {
         flexDirection: "row",
         alignItems: "center",
-        marginRight: 5,
+        marginRight: 10,
         alignContent: "center"
     },
     rateText: {

@@ -1,51 +1,51 @@
-import { View, FlatList, } from 'react-native'
+import { View, ScrollView } from 'react-native'
 import React from 'react'
 import HeaderMenuListCard from './/headerMenuListCard/headerMenuListCard';
 import colors from "assets/colors/colors";
+import { H1, H2, H3, H4, H5, H6, H7, H8 } from 'assets/images';
 export default function HeaderList() {
   const [images, setimages] = React.useState([
     {
       id: 1,
-      image: require("assets/images/headerMenuListImages/h1.jpg"),
+      image: H1,
     },
     {
       id: 2,
-      image: require("assets/images/headerMenuListImages/h2.jpg"),
+      image: H2,
     },
     {
       id: 3,
-      image: require('assets/images/headerMenuListImages/h3.jpg'),
+      image: H3,
     },
     {
       id: 4,
-      image: require('assets/images/headerMenuListImages/h4.jpg'),
+      image: H4,
     },
     {
       id: 5,
-      image: require('assets/images/headerMenuListImages/h5.jpg'),
+      image: H5,
     },
     {
       id: 6,
-      image: require('assets/images/headerMenuListImages/h6.jpg'),
+      image: H6,
     },
     {
       id: 7,
-      image: require('assets/images/headerMenuListImages/h7.jpg'),
+      image: H7,
     },
     {
       id: 8,
-      image: require('assets/images/headerMenuListImages/h8.jpg'),
+      image: H8,
     }
   ]);
-  const renderProducts = ({ item }) => <HeaderMenuListCard products={item} />
   return (
-    <View style={{ borderBottomWidth: 5, borderBottomColor: colors.lightGrey, paddingHorizontal: 3 }}>
-      <FlatList
-        data={images}
-        renderItem={renderProducts}
-        showsHorizontalScrollIndicator={false}
-        horizontal
-      />
-    </View>
+    <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+
+      <View style={{ flexDirection: 'row', borderBottomWidth: 5, borderBottomColor: colors.lightGrey, paddingHorizontal: 3 }}>
+        {
+          images.map((item) => <HeaderMenuListCard item={item} key={item.id} products={item} />)
+        }
+      </View>
+    </ScrollView>
   )
 }

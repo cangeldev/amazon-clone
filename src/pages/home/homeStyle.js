@@ -6,7 +6,7 @@ export default StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: colors.white,
-    },    
+    },
     imageContainer: {
         borderTopWidth: 5,
         borderBottomWidth: 1, borderColor: colors.lightGrey
@@ -16,5 +16,25 @@ export default StyleSheet.create({
         height: 70,
         resizeMode: "stretch",
     },
-   
+    footerContainer:
+    {
+        flexDirection: 'row',
+        alignItems: 'center',
+        backgroundColor: colors.grey2,
+        paddingVertical: 2,
+        paddingBottom: 6
+    },
+    text:
+    {
+        flex: 1,
+        height: 1,
+        backgroundColor: 'grey'
+    },
+    footerInnerText:
+    {
+        width: 310,
+        textAlign: 'center',
+        fontSize: 13,
+        color: "grey"
+    }
 });

@@ -8,8 +8,7 @@ export default StyleSheet.create({
         marginTop: 15,
         borderRadius: 8,
         borderWidth: 0.7,
-        borderColor: colors.lightGrey,
-        elevation: 1,
+        borderColor: colors.lightGrey,        
         backgroundColor: colors.fafafa,
     },
     text: {

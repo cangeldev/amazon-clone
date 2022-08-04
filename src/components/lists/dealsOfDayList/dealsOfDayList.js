@@ -13,5 +13,7 @@ export default function DealsOfDayList({ name }) {
             <FlatList data={products} renderItem={renderProducts} horizontal showsHorizontalScrollIndicator={false} />
             <Text  style={dealsOfDayListStyle.text}>Tüm fırsatları gör</Text>
         </View>
+
+        
     )
 }

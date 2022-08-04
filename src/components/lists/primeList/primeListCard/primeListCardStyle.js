@@ -35,7 +35,7 @@ export default StyleSheet.create({
     },
     price: {
         color: colors.white,
-        fontSize: 15,
+        fontSize: 14,
         backgroundColor: colors.red,
         padding: 5,
         alignSelf: "flex-start",
@@ -50,31 +50,29 @@ export default StyleSheet.create({
     },
     priceText: {
         color: colors.red,
-        fontSize: 16,
+        fontSize: 14,
+        marginLeft:5
     },
     rateContainer:{
         alignItems: "center",
         flexDirection:"row",      
         position:"absolute",
         right:-5,
-        bottom:0
-       
+        bottom:0       
     },
     title:{
         marginTop:5,
         width:250,
-        fontSize:20,
+        fontSize:16,
         color:colors.black,
     },
     rate:{
-        fontSize:18,
+        fontSize:16,
         color:colors.black,
         marginHorizontal:5
     },
     rateText:{
-        fontSize:14,
-        color:colors.black,
-      
-        
+        fontSize:12,
+        color:colors.black,       
     }
 });

@@ -12,7 +12,6 @@ import PrimeList from 'components/lists/primeList/primeList';
 import Product from 'components/product/product';
 import NewProducts from 'components/lists/newProducts/newProducts';
 import { R1, R2, R3, R4, R5 } from 'assets/images';
-import colors from 'assets/colors/colors';
 
 export default function Home() {
   return (
@@ -30,7 +29,7 @@ export default function Home() {
         </View>
         <RandomImage />
         <DealsOfDayList name={"Günün Fırsatları"} />
-        <PrimeList />
+        <PrimeList name={"Prime Özel Fırsatlar"}/>
         <Product name={"Kulaklıkları keşfet"} path={R1} />
         <NewProducts />
         <Product name={"Elektrik malzemeleri"} path={R2} />
@@ -39,13 +38,12 @@ export default function Home() {
         <Product name={"Mutfak ve Banyo ürünlerini Keşfet"} path={R4} />
         <NewProducts />
         <Product name={"Her yaşa uygun yapbozları keşfedin"} path={R5} />
-
-        <View style={{ flexDirection: 'row', alignItems: 'center' ,backgroundColor: colors.grey2, paddingVertical:2,}}>
-          <View style={{ flex: 1, height: 1, backgroundColor: 'grey' }} />
+        <View style={homeStyle.footerContainer}>
+          <View style={homeStyle.text} />
           <View>
-            <Text style={{ width: 310, textAlign: 'center',fontSize:13 ,color:"grey"}}>Sayfanın sonuna geldiniz. Keşfetmeye devam edin!</Text>
+            <Text style={homeStyle.footerInnerText}>Sayfanın sonuna geldiniz. Keşfetmeye devam edin!</Text>
           </View>
-          <View style={{ flex: 1, height: 1, backgroundColor: 'grey',   }} />
+          <View style={homeStyle.text} />
         </View>
       </ScrollView>
     </View >

@@ -20,6 +20,6 @@ export default StyleSheet.create({
         position: "absolute",
         right: 12,
         top: 15,
-        
+
     }
 });

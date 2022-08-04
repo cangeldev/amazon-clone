@@ -25,6 +25,5 @@ export default StyleSheet.create({
     },
     innerContainer: {
         justifyContent: "center",
-
     }
 });

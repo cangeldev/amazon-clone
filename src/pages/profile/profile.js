@@ -8,7 +8,7 @@ import LinearGradient from 'react-native-linear-gradient';
 import ContentInfo from 'components/contentInfo/contentInfo';
 import ContentDiv from 'components/contentDiv/contentDiv';
 import ProfileScreenHeader from 'components/profileScreenHeader/profileScreenHeader';
-export default function Profile() {
+export default function Profile({navigation}) {
   return (
     <View style={profileStyle.container}>
       <ScrollView stickyHeaderIndices={[0]} >
@@ -29,7 +29,7 @@ export default function Profile() {
               </View>
             </View>
             <ProfileButton />
-            <ContentInfo header={"Siparişlerim"} content={"Merhaba, yeni siparişiniz yok."} text={"Ana sayfaya geri dön"} />
+            <ContentInfo   onPress={() => navigation.navigate('Home')}  header={"Siparişlerim"} content={"Merhaba, yeni siparişiniz yok."} text={"Ana sayfaya geri dön"} />
           </View>
         </LinearGradient>
         <ContentInfo

@@ -1,11 +1,11 @@
-import { Text, TouchableOpacity ,Image} from 'react-native'
+import { Text, TouchableOpacity, Image } from 'react-native'
 import React from 'react'
 import menuButtonStyle from './menuButtonStyle'
 import IconA from "react-native-vector-icons/AntDesign";
 import colors from 'assets/colors/colors';
 
-export default function MenuButton({ text, onPress, iconName,display }) {
-    const displayV =display
+export default function MenuButton({ text, onPress, iconName, display }) {
+    const displayV = display
     return (
         <TouchableOpacity
             onPress={onPress}
@@ -17,9 +17,9 @@ export default function MenuButton({ text, onPress, iconName,display }) {
                 style={
                     menuButtonStyle.text
                 }>
-                {text}              
+                {text}
             </Text>
-            <Image   style={[menuButtonStyle.image, {display:displayV}]} source={require("assets/images/bayrak.png")}/>
+            <Image style={[menuButtonStyle.image, { display: displayV }]} source={require("assets/images/bayrak.png")} />
             <IconA
                 name={iconName}
                 size={22}

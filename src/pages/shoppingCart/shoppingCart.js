@@ -9,7 +9,7 @@ import RecommendedList from 'components/lists/recommendedList/recommendedList'
 import ProfileFooterButton from 'components/customButtons/profileFooterButton/profileFooterButton'
 
 
-export default function ShoppingCart() {
+export default function ShoppingCart({navigation}) {
   return (
     <View style={shoppingCartStyle.container}>
       <ScrollView stickyHeaderIndices={[0]}>
@@ -29,7 +29,7 @@ export default function ShoppingCart() {
         <Text style={{borderColor:colors.lightGrey,borderWidth:1, marginTop:5, height:14}}></Text>
         <RecommendedList name={"Tüm ürünlere yönelik öneriler:"}  buttonText={"Satın alma seçeneklerini gör"}/>
         <RecommendedList name={"En çok satılan ürünler:"} buttonText={"Sepete ekle"}  />
-        <ProfileFooterButton text={"Alışverişe devam et"} colorA={colors.btnYellow} marginBottom={15}/>
+        <ProfileFooterButton  onPress={() => navigation.navigate('Home')}  text={"Alışverişe devam et"} colorA={colors.btnYellow} marginBottom={15}/>
       </ScrollView>
       
     </View>
