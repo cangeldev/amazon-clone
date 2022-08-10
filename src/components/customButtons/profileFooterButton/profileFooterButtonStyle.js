@@ -12,12 +12,13 @@ export default StyleSheet.create({
         backgroundColor: colors.fafafa,
     },
     text: {
-        fontSize: 18,
+        fontSize: 17,
         minHeight: 55,
         textAlignVertical: "center",
         alignSelf: "center",
         color: colors.black,
         textAlign: "center",
-        paddingHorizontal: 16
+        paddingHorizontal: 16,
+        fontFamily: "OpenSans-Regular",
     }
 })

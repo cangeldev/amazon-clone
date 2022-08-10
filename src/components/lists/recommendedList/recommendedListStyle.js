@@ -11,8 +11,9 @@ export default StyleSheet.create({
     },
     title: {
         paddingLeft: 7,
-        fontSize: 22,
-        color: colors.black
+        fontSize: 19,
+        color: colors.black,
+        fontFamily: "OpenSans-Regular",
     },  
    
 });

@@ -12,5 +12,7 @@ export default StyleSheet.create({
         fontSize: 16,
         color: colors.black,
         marginLeft: 6,
+        fontFamily:"OpenSans-Regular",
+       
     },
 });

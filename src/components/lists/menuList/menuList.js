@@ -1,82 +1,83 @@
 import { View } from 'react-native'
 import React from 'react'
 import MenuListCard from './menuListCard/menuListCard';
+import { Hediye,Firsat ,Gida,Evcil,Temizlik,Moda,Mutfak, Kitap, Telefon,Gitar, Hesap, Valiz, Spor, Ofis, Bebek} from 'assets/images';
 
 export default function MenuList() {
     const [images, setimages] = React.useState([
         {
             id: 1,
-            image: require("assets/images/menu/hediye.png"),
+            image:Hediye,
             name: "Hediye",
         },
         {
             id: 2,
-            image: require("assets/images/menu/firsat.png"),
+            image: Firsat,
             name: "Fırsatlar",
         },
         {
             id: 3,
-            image: require("assets/images/menu/gida.png"),
+            image:Gida,
             name: "Gıda ve İçecek",
         },
         {
             id: 4,
-            image: require("assets/images/menu/temizlik.png"),
+            image: Temizlik,
             name: "Sağlık, Bakım ve Temizlik",
         },
         {
             id: 5,
-            image: require("assets/images/menu/evcil.png"),
+            image: Evcil,
             name: "Evcil Hayvan Ürünleri",
         },
         {
             id: 6,
-            image: require("assets/images/menu/moda.png"),
+            image:Moda,
             name: "Moda ve Güzellik",
         },
         {
             id: 7,
-            image: require("assets/images/menu/mutfak.png"),
+            image:Mutfak,
             name: "Ev, Mutfak ve Yapı market",
         },
         {
             id: 8,
-            image: require("assets/images/menu/telefon.png"),
+            image: Telefon,
             name: "Telefon ve Elektronik",
         },
         {
             id: 9,
-            image: require("assets/images/menu/gitar.png"),
+            image: Gitar,
             name: "Müzik, Video ve Oyun",
         },
         {
             id: 10,
-            image: require("assets/images/menu/kitap.png"),
+            image: Kitap,
             name: "Kitap",
         },
         {
             id: 11,
-            image: require("assets/images/menu/bebek.png"),
+            image: Bebek,
             name: "Bebek ve Çocuk Ürünleri",
         },
         {
             id: 12,
-            image: require("assets/images/menu/ofis.png"),
+            image: Ofis,
             name: "Ofis Aksesuarları",
         },
         {
             id: 13,
-            image: require("assets/images/menu/spor.png"),
+            image: Spor,
             name: "Spor ve Outdoor",
         },
         {
             id: 14,
-            image: require("assets/images/menu/valiz.png"),
+            image: Valiz,
             name: "Valiz ve Aksesuarları",
         },
         {
             id: 15,
-            image: require("assets/images/menu/hesap.png"),
+            image:Hesap,
             name: "Hesabım",
         }
     ]);

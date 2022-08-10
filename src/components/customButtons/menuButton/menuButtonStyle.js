@@ -14,11 +14,12 @@ export default StyleSheet.create({
         alignItems: "center",
     },
     text: {
-        fontSize: 16,
+        fontSize: 15,
         minHeight: 50,
         textAlignVertical: "center",
         color: colors.black,
-        paddingHorizontal: 16
+        paddingHorizontal: 16,
+        fontFamily: "OpenSans-Regular",
     },
     image: {
         width: 30,

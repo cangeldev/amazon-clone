@@ -4,7 +4,7 @@ export default StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: colors.white
-    },   
+    },
     profileInnerContainer: {
         flexDirection: "row",
         alignItems: "center",
@@ -17,7 +17,8 @@ export default StyleSheet.create({
     name: {
         fontSize: 25,
         color: colors.black,
-        marginLeft: 15,
+        marginLeft: 13,
+        fontFamily: "OpenSans-Light",
     },
     profileImageContainer: {
         backgroundColor: colors.lightGrey,
@@ -30,7 +31,7 @@ export default StyleSheet.create({
         alignItems: "center",
     },
     profileContainer: {
-      
+
         borderBottomWidth: 5,
         borderColor: colors.lightGrey,
     },

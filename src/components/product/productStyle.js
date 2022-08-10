@@ -11,6 +11,7 @@ export default StyleSheet.create({
         fontSize: 20,
         marginLeft: 12,
         marginVertical:8,
+        fontFamily:"OpenSans-SemiBold",
      
     },
     image: {

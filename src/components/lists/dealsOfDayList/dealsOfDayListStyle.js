@@ -11,14 +11,16 @@ export default StyleSheet.create({
     },
     title: {
         paddingLeft: 7,
-        fontSize: 22,
-        color: colors.black
+        fontSize: 20,
+        color: colors.black,
+        fontFamily:"OpenSans-SemiBold",
     },
     text: {
         paddingLeft: 7,
-        fontSize: 17,
+        fontSize: 16,
         color: colors.green1,
         marginTop: 2,
-        marginBottom: -5
+        marginBottom: -5,
+        fontFamily:"OpenSans-Light",
     }
 });

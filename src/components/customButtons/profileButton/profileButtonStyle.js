@@ -14,13 +14,14 @@ export default StyleSheet.create({
         marginBottom: 3
     },
     text: {
-        fontSize: 17,
+        fontSize: 15,
         minHeight: 45,
         textAlignVertical: "center",
         alignSelf: "center",
         color: colors.black,
         textAlign: "center",
-        paddingHorizontal: 16
+        paddingHorizontal: 16,
+        fontFamily: "OpenSans-Regular",
     },
     profileButtonContainer: {
         flexDirection: "row",

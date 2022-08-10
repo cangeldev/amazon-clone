@@ -23,11 +23,13 @@ export default StyleSheet.create({
     },
     title: {
         width: "90%",
-        fontSize: 17,
-        color: colors.black
+        fontSize: 13,
+        color: colors.black,
+        fontFamily:"OpenSans-Light",
     },
     price: {
         color: colors.orange,
         fontSize: 15,
+        fontFamily:"OpenSans-Medium",
     }
 });

@@ -39,7 +39,8 @@ export default StyleSheet.create({
         backgroundColor: colors.red,
         padding: 5,
         alignSelf: "flex-start",
-        marginRight:5
+        marginRight:5,
+        fontFamily:"OpenSans-Light",
     },
 
     priceContainer: {      
@@ -51,7 +52,8 @@ export default StyleSheet.create({
     priceText: {
         color: colors.red,
         fontSize: 14,
-        marginLeft:5
+        marginLeft:5,
+        fontFamily:"OpenSans-Light",
     },
     rateContainer:{
         alignItems: "center",
@@ -63,16 +65,18 @@ export default StyleSheet.create({
     title:{
         marginTop:5,
         width:250,
-        fontSize:16,
+        fontSize:15,
         color:colors.black,
+        fontFamily:"OpenSans-Light",
     },
     rate:{
-        fontSize:16,
+        fontSize:14,
         color:colors.black,
-        marginHorizontal:5
+        marginHorizontal:5,
+        fontFamily:"OpenSans-Regular",
     },
     rateText:{
-        fontSize:12,
+        fontSize:11,
         color:colors.black,       
     }
 });

@@ -9,7 +9,10 @@ export default StyleSheet.create({
         backgroundColor: colors.white,
         paddingHorizontal: 35,
         borderColor: colors.lightGrey,
-        fontSize: 18,
+        fontSize: 17,
+        fontFamily:"OpenSans-Medium",
+        height: 45,
+       
     },
     iconM: {
         position: "absolute",
@@ -20,8 +23,9 @@ export default StyleSheet.create({
         position: "relative",
         justifyContent: "center",
         width: "100%",
-        height: 70,
+        height: 60,
         alignItems: "center",
+        marginTop: 5,
     },
     innerContainer: {
         justifyContent: "center",
