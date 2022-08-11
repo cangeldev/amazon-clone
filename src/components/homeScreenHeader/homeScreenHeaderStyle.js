@@ -9,7 +9,9 @@ export default StyleSheet.create({
         backgroundColor: colors.white,
         paddingHorizontal: 35,
         borderColor: colors.lightGrey,
-        fontSize: 18,
+        fontSize: 17,
+        fontFamily:"OpenSans-Medium",
+       
     },
     iconM: {
         position: "absolute",

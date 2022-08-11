@@ -21,10 +21,11 @@ export default StyleSheet.create({
         resizeMode: "contain",
     },
     text: {
-        fontSize: 17,
+        fontSize: 14,
         marginTop: 10,
         marginHorizontal: 10,
         color: colors.black,
+        fontFamily: "OpenSans-Regular",
         
     },
     background: {

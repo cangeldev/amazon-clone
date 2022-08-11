@@ -22,6 +22,7 @@ export default StyleSheet.create({
         color: colors.black,
         marginLeft: 10,
         marginBottom: 10,
+        fontFamily:"OpenSans-Regular",
     },
     price: {
         color: colors.white,
@@ -63,7 +64,7 @@ export default StyleSheet.create({
     },
     rate: {
         paddingLeft: 6,
-        fontSize: 15,
+        fontSize: 14,
         color: colors.black
     }
 });

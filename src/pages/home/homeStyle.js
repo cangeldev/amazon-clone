@@ -32,9 +32,10 @@ export default StyleSheet.create({
     },
     footerInnerText:
     {
-        width: 310,
+        width: 295,
         textAlign: 'center',
-        fontSize: 13,
-        color: "grey"
+        fontSize: 12,
+        color: "grey",
+        fontFamily:"OpenSans-Regular",
     }
 });

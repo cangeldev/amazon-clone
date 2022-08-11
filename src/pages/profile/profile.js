@@ -18,7 +18,7 @@ export default function Profile({navigation}) {
             <View style={profileStyle.profileInnerContainer}>
               <View style={profileStyle.nameContainer}>
                 <Text style={profileStyle.name} >Merhaba,</Text>
-                <Text style={[profileStyle.name, { fontWeight: "bold", marginLeft: 4 }]}>Can</Text>
+                <Text style={[profileStyle.name, {   fontFamily: "OpenSans-SemiBold", marginLeft: 4 }]}>Can</Text>
               </View>
               <View style={profileStyle.profileImageContainer}>
                 <IconA

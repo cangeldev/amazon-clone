@@ -23,18 +23,19 @@ export default StyleSheet.create({
     },
     title: {
         width: "90%",
-        fontSize: 17,
+        fontSize: 15,
         color: colors.black,
         marginLeft: 10,
         marginBottom: 4,
+        fontFamily: "OpenSans-Light",
 
     },
     price: {
         color: colors.red,
-        fontSize: 15,
+        fontSize: 14,
         alignSelf: "flex-start",
         marginLeft: 10,
-        fontWeight: "bold",
+        fontFamily: "OpenSans-SemiBold",
     },
     favoriContainer: {
         width: 30,
@@ -68,6 +69,7 @@ export default StyleSheet.create({
         textAlignVertical: "center",
         color: colors.black,
         textAlign: "center",
+        fontFamily: "OpenSans-Regular",
     }
 
 });

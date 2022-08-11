@@ -16,12 +16,12 @@ export default function Header() {
                         placeholderTextColor={colors.greyPlaceHolder} />
                     <IconI
                         name="search"
-                        size={22}
+                        size={20}
                         color={colors.black}
                         style={{ position: "absolute", marginLeft: 6 }} />
                     <IconM
                         name="qrcode-scan"
-                        size={22}
+                        size={20}
                         color={colors.silver}
                         style={homeScreenHeaderStyle.iconM} />
                 </View>

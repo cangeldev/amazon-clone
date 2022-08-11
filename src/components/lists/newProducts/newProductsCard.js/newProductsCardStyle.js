@@ -21,14 +21,14 @@ export default StyleSheet.create({
     },
     title: {
         width: "90%",
-        fontSize: 17,
+        fontSize: 14,
         color: colors.black,
         marginTop: 36,
         marginLeft:4
     },
     price: {
         color: colors.orange,
-        fontSize: 15,
+        fontSize: 14,
         marginLeft:4
     }
 });
