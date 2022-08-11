@@ -6,6 +6,8 @@ import colors from 'assets/colors/colors';
 import LinearGradient from 'react-native-linear-gradient';
 import homeScreenHeaderStyle from './homeScreenHeaderStyle';
 export default function Header() {
+    const [search, setSearch] = React.useState('');
+    console.log(search);
     return (
         <LinearGradient start={{ x: 0, y: 0 }} end={{ x: 1, y: 0 }} colors={['#00d4ff', '#50C9C3', '#50C9C3']}>
             <View style={homeScreenHeaderStyle.headerContainer}>
@@ -13,7 +15,9 @@ export default function Header() {
                     <TextInput
                         style={homeScreenHeaderStyle.txtInput}
                         placeholder={"Amazon.com.tr'de Ara"}
-                        placeholderTextColor={colors.greyPlaceHolder} />
+                        placeholderTextColor={colors.greyPlaceHolder} 
+                        onChangeText={(text) => {setSearch(text) }}
+                        />
                     <IconI
                         name="search"
                         size={20}

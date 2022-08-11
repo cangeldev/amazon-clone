@@ -9,7 +9,7 @@ export default StyleSheet.create({
         backgroundColor: colors.white,
         paddingHorizontal: 35,
         borderColor: colors.lightGrey,
-        fontSize: 17,
+        fontSize: 16,
         fontFamily:"OpenSans-Medium",
         height: 45,
     },
@@ -29,14 +29,5 @@ export default StyleSheet.create({
     innerContainer: {
         justifyContent: "center",
     },
-    txtInput: {
-        borderWidth: 0.7,
-        borderRadius: 6,
-        width: windowWidth / 1.06,        
-        paddingHorizontal: 35,
-        borderColor: colors.lightGrey,
-        fontSize: 17,
-        fontFamily:"OpenSans-Medium",
-        height: 45,
-    },
+    
 });

@@ -12,6 +12,7 @@ import IconO from "react-native-vector-icons/Octicons";
 import IconFA from "react-native-vector-icons/FontAwesome";
 import IconF from "react-native-vector-icons/Feather";
 import FirstRouter from 'pages/firstRouter/firstRouter';
+import CustomerService from 'components/customerService/customerService';
 
 export default function Container() {
   const stack = createNativeStackNavigator()
@@ -21,7 +22,7 @@ export default function Container() {
         <stack.Navigator screenOptions={{
           headerShown: false,
           statusBarColor: colors.statusBarColor,
-          navigationBarColor: colors.white
+          navigationBarColor: colors.white,
         }}
           initialRouteName='TabNavigator'>
           <stack.Screen
@@ -32,6 +33,10 @@ export default function Container() {
             name='TabNavigator'
             component={TabNavigator}
           />
+          <stack.Screen
+            name='CustomerService'
+            component={CustomerService}
+          />
         </stack.Navigator>
       </NavigationContainer>
     </View>
@@ -41,48 +46,39 @@ function TabNavigator() {
   const Tab = createBottomTabNavigator()
   return (
     <View style={{ height: "100%", paddingTop: 24 }}>
-      <Tab.Navigator screenOptions={{ headerShown: false, tabBarShowLabel: false }}>
+      <Tab.Navigator
+        screenOptions={{
+          headerShown: false,
+          tabBarShowLabel: false,
+          tabBarActiveTintColor: colors.green1,
+          tabBarInactiveTintColor:colors.black,
+          tabBarItemStyle:{borderRadius:10,borderTopColor:colors.red,borderTopWidth:4},
+        }} >
         <Tab.Screen
           name="Home"
           component={Home}
           options={{
-            tabBarIcon: ({ focused }) =>
-            (<IconO
-              color={focused ? colors.green1 : colors.black}
-              name="home"
-              size={24} />),
-          }} />
+            tabBarIcon: ({ color }) => (<IconO name="home" color={color} size={24} />),
+          }}
+        />
         <Tab.Screen
           name="Profile"
           component={Profile}
-          options={{
-            tabBarIcon: ({ focused }) =>
-            (<IconFA
-              color={focused ? colors.green1 : colors.black}
-              name="user-o"
-              size={24} />),
+          options={{ 
+            tabBarIcon: ({ color }) => (<IconFA name="user-o" color={color} size={24} />)
           }} />
         <Tab.Screen
           name="ShoppingCart"
           component={ShoppingCart}
           options={{
-
-            tabBarIcon: ({ focused }) =>
-            (<IconF
-              color={focused ? colors.green1 : colors.black}
-              name="shopping-cart"
-              size={24} />),
+            tabBarIcon: ({ color }) => (<IconF name="shopping-cart" color={color} size={24} />)
           }}
         />
         <Tab.Screen
           name="Menu"
           component={Menu}
           options={{
-            tabBarIcon: ({ focused }) =>
-            (<IconF
-              color={focused ? colors.green1 : colors.black}
-              name="menu"
-              size={24} />),
+            tabBarIcon: ({ color }) => (<IconF name="menu" color={color} size={24} />)
           }} />
       </Tab.Navigator>
     </View>
