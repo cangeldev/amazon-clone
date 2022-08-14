@@ -1,3 +1,5 @@
-# amazon-clone Continue
-<img src="https://user-images.githubusercontent.com/84725623/184534533-af22dcd6-3fb3-48ec-ba42-b7a730047497.jpeg" width="150" height="280">
-<img src="https://user-images.githubusercontent.com/84725623/184534533-af22dcd6-3fb3-48ec-ba42-b7a730047497.jpeg" width="150" height="280">
+# amazon-clone (Bitmedi)
+
+ <img height="600" src="https://user-images.githubusercontent.com/84725623/184536268-1c78da9e-0aa6-4fdd-8001-906bd63cb36e.jpeg">  <img height="600" src="https://user-images.githubusercontent.com/84725623/184536295-5aeb15a1-e4f1-4c78-b158-6fa74ba8126a.jpeg"> <img height="600" src="https://user-images.githubusercontent.com/84725623/184536314-1bd6f7d9-4ee6-4cbc-bbc5-adc46a3dc675.jpeg"> 
+<img height="600" src="https://user-images.githubusercontent.com/84725623/184536342-1f390954-9ab7-42b2-8065-917b1c3a56a3.jpeg"><img height="600" src="https://user-images.githubusercontent.com/84725623/184536348-25510716-da74-49fb-9c47-a6992381d2b1.jpeg"> <img height="600" src="https://user-images.githubusercontent.com/84725623/184536361-be9acbac-31e1-4a5f-b95e-9b456858d605.jpeg">
+<img height="600" src="https://user-images.githubusercontent.com/84725623/184536362-2af0b2c5-7866-4d55-9bc8-077309b5d8bf.jpeg"><img height="600" src="https://user-images.githubusercontent.com/84725623/184536425-c05a7382-a023-4b67-8492-b9375f524e0b.jpeg"><img height="600" src="https://user-images.githubusercontent.com/84725623/184536424-6c779636-7456-4721-9689-47ebbed399f8.jpeg">
